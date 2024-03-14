@@ -3,125 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  
-  font-family: Arial, sans-serif;
-  background-color: #242424;
-  /* Color de fondo oscuro */
-  color: #E1E8ED;
-  /* Color de texto claro */
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+body{
+  background-color: #1B2838;
 }
 
-header,
-footer {
-  background-color: #1A1A1A;
-  /* Color de fondo oscuro para el encabezado y el pie de página */
-  width: 100%;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header h1 {
-  margin: 0;
-  color: #1DA1F2;
-  /* Mantener el color del texto del encabezado */
-  font-size: 48px;
-  /* Tamaño del texto */
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #1DA1F2;
-  /* Mantener el color de texto para enlaces de navegación */
-  text-decoration: none;
-}
-
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px; /* Ajustar según sea necesario */
-  padding-bottom: 25px; 
-
-}
-.search-form {
-  background-color: #1A1A1A;
-  border-radius: 20px; /* Hacer la forma un poco circular */
-  padding: 10px;
-  display: flex;
-  width: 50%;
-}
-
-.search-form input[type="text"] {
-  border: none;
-  background: none;
-  outline: none;
-  color: #E1E8ED;
-  width: 100%;
-}
-
-.search-form button {
-  border: 1px solid #1DA1F2;
-  border-radius: 10px;
-  background: none;
-  outline: none;
-  cursor: pointer;
-  padding: 5px;
-  border-color: #1DA1F2;
-  
-}
-
-.search-form button i {
-  color: #1DA1F2;
-}
-
-.content {
-  width: 100%;
-  padding: 20px 10%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column-reverse;
-}
-
-.post {
-  background-color: #1A1A1A;
-  /* Color de fondo oscuro para publicaciones */
-  color: #E1E8ED;
-  /* Color de texto claro para publicaciones */
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #333;
-  /* Borde más oscuro */
+img {
+  aspect-ratio: 200 / 200; object-fit: cover;
 }
 
 footer {
-  margin-top: auto;
-  padding: 20px 0;
-  border-top: 1px solid #333;
-  /* Borde superior más oscuro */
-  color: #E1E8ED;
-  /* Color de texto claro para el pie de página */
-  font-size: 14px;
-  /* Tamaño del texto */
-  text-align: center;
-
+  background-color: #0f1d3b;
 }
